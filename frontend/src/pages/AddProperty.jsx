@@ -147,6 +147,7 @@ function AddProperty() {
                             value={category}
                             onChange={onChange}
                         >
+                            <option value=''>Select</option>
                             <option value='Sale'>Sale</option>
                             <option value='Rent'>Rent</option>
                         </select>
@@ -159,6 +160,7 @@ function AddProperty() {
                             value={type}
                             onChange={onChange}
                         >
+                            <option value=''>Select</option>
                             <option value='Apartment/Flat'>Apartment/Flat</option>
                             <option value='Villa/House'>Villa/House</option>
                             <option value='Townhouse'>Townhouse</option>
@@ -194,6 +196,7 @@ function AddProperty() {
                             value={status}
                             onChange={onChange}
                         >
+                            <option value='select'>Select</option>
                             <option value='Ready to move'>Ready to move</option>
                             <option value='Offplan'>Offplan</option>
                             <option value='Sold'>Sold</option>
