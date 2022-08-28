@@ -38,8 +38,8 @@ exports.upload = multer({ storage: storage, fileFilter: imageFileFilter })
 
 
 const s3 = new aws.S3({
-    accessKeyId: 'AKIAYL5EDQXUPQO2NXUV',
-    secretAccessKey: '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',
+    accessKeyId: process.env.ACCESS_KEY_AWS,
+    secretAccessKey: process.env.ACCESS_SECRET_AWS,
 });
 
 //Here we configure what our storage and filefilter will be, which is the storage and imageFileFilter we created above
