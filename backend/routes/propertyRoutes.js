@@ -12,7 +12,7 @@ const {
     createProperty,
     deleteProperty,
     updateProperty,
-} = require('../controller/PropertyController')
+} = require('../controller/propertyController')
 
 const { protect } = require('../middleware/authMiddleware')
 
